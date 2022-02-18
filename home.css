@@ -1,3 +1,5 @@
+/* Header */
+
 .header-auth-wrapper {
     background-color: var(--white);
     padding: var(--u-1);
@@ -30,8 +32,7 @@
     color: var(--black);
 }
 
-.nav-logo .logo-png
-{
+.nav-logo .logo-png {
     width: 80px;
     height: 80px;
 }
@@ -55,14 +56,15 @@
     border-bottom: var(--ecom-primary);
 }
 
+/* Main */
+
 .home-banner {
     margin: var(--u-16) 0 var(--u-16) 0;
     position: relative;
-    cursor: pointer;
 }
 
 .home-banner .img-responsive {
-    height: auto
+    height: auto;
 }
 
 .home-banner .btn {
@@ -76,6 +78,7 @@
 }
 
 .home-banner .btn:hover {
+    font-size: var(--text-lg);
     font-weight: 600;
     background-color: var(--ecom-primary);
     color: var(--white);
@@ -95,7 +98,6 @@
     position: relative;
     border-radius: 1%;
     height: 400px;
-    cursor: pointer;
     object-fit: cover;
 }
 
@@ -107,6 +109,7 @@
 
 .featured .btn:hover {
     font-size: var(--text-lg);
+    font-weight: 600;
     background-color: var(--white);
     color: var(--ecom-primary);
 }
@@ -131,6 +134,7 @@
     color: var(--white);
     left: 2%;
     top: 5%;
+    transform: translate(2%, 5%);
 }
 
 .featured-content1 .content-title,
@@ -145,4 +149,6 @@
     color: var(--white);
     left: 54%;
     top: 5%;
+    transform: translate(54%, 5%);
+
 }

@@ -1,5 +1,4 @@
-:root
-{
+:root {
 
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: 'Russo One', sans-serif;
@@ -11,5 +10,9 @@
     --black: #000000;
 
     --homecard-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    --imageoverlay-gradient:  rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+    --imageoverlay-gradient: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+}
+
+a {
+    text-decoration: none;
 }
