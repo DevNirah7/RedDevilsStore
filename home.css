@@ -1,0 +1,148 @@
+.header-auth-wrapper {
+    background-color: var(--white);
+    padding: var(--u-1);
+    margin-right: var(--u-2);
+    height: max-content;
+}
+
+.header-auth-wrapper .btn {
+    padding: var(--u-0) var(--u-4);
+    margin: 0;
+    color: var(--ecom-secondary);
+
+}
+
+.header-auth-wrapper .link-btn:hover {
+    border-bottom: none;
+}
+
+.ecom-header .nav-simple {
+    background-color: var(--ecom-primary);
+    padding: var(--u-4) var(--u-4);
+}
+
+.ecom-header .nav-logo {
+    font-size: var(--text-4xl);
+    gap: var(--u-4);
+}
+
+.ecom-header .logo-txt1 {
+    color: var(--black);
+}
+
+.nav-logo .logo-png
+{
+    width: 80px;
+    height: 80px;
+}
+
+.header-categories {
+    display: flex;
+    justify-content: center;
+    gap: var(--u-16);
+    background-color: var(--black);
+    color: var(--white);
+    padding: var(--u-4);
+}
+
+.header-categories .btn {
+    padding: var(--u-2) var(--u-2);
+    margin: 0;
+    color: var(--white);
+}
+
+.header-categories .link-btn:hover {
+    border-bottom: var(--ecom-primary);
+}
+
+.home-banner {
+    margin: var(--u-16) 0 var(--u-16) 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.home-banner .img-responsive {
+    height: auto
+}
+
+.home-banner .btn {
+    font-size: var(--text-lg);
+    position: absolute;
+    left: 52%;
+    top: 90%;
+    transform: translate(-52%, -90%);
+    background-color: var(--white);
+    color: var(--ecom-primary);
+}
+
+.home-banner .btn:hover {
+    font-weight: 600;
+    background-color: var(--ecom-primary);
+    color: var(--white);
+}
+
+.featured {
+    margin: var(--u-16) var(--u-16) var(--u-16) var(--u-16);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.featured .img-responsive {
+    box-shadow: var(--homecard-shadow);
+    position: relative;
+    border-radius: 1%;
+    height: 400px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.featured .btn {
+    font-size: var(--text-lg);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.featured .btn:hover {
+    font-size: var(--text-lg);
+    background-color: var(--white);
+    color: var(--ecom-primary);
+}
+
+.featured .featured-btn1 {
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+    transform: translate(-35%, -5%);
+}
+
+.featured .featured-btn2 {
+    position: absolute;
+    left: 90%;
+    bottom: 5%;
+    transform: translate(-90%, -5%);
+}
+
+.featured-content1 {
+    background: var(--imageoverlay-gradient);
+    position: absolute;
+    color: var(--white);
+    left: 2%;
+    top: 5%;
+}
+
+.featured-content1 .content-title,
+.featured-content2 .content-title {
+
+    font-size: var(--text-3xl);
+}
+
+.featured-content2 {
+    background: var(--imageoverlay-gradient);
+    position: absolute;
+    color: var(--white);
+    left: 54%;
+    top: 5%;
+}
