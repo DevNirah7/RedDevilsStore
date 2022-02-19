@@ -10,30 +10,21 @@
     display: grid;
     padding: var(--u-16);
     min-height: 100vh;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 50% 50%;
     gap: var(--u-16);
 }
 
 .cart-items-list
 {
     padding: 0 var(--u-8);
-    justify-self: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
-.card
+.card-item
 {
     margin-bottom: var(--u-16);
     border: solid var(--u-2) var(--black);
-}
-
-.card-hor :hover
-{
-    box-shadow: var(--floating-shadow);
-}
-
-.card-item :hover
-{
-    box-shadow: var(--floating-shadow);
 }
 
 .item-dismiss-icon
@@ -70,7 +61,7 @@
 {
     box-shadow: var(--homecard-shadow); 
     height: min-content;  
-    justify-self: center;
+    justify-self: flex-start;
     width: 50%;
 }
 
