@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedDevilsStore | All Products</title>
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/root.css">
+    <link rel="stylesheet" href="/product/productdisplay.css">
+    <link rel="stylesheet" href="https://mint-ui-library.netlify.app/src/css/import.css">
+    <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="ecom-header">
+        <div class="header-auth-wrapper flex justify-end">
+            <div class="header-auth">
+                <a href="#" class="btn link-btn">Register</a>
+                <span>|</span>
+                <a href="#" class="btn link-btn">Login</a>
+            </div>
+        </div>
+        <nav class="nav-simple">
+            <div class="nav-logo flex items-center">
+                <img class="logo-png" src="/Assets/CRD PNG ( Black and Red ).png" alt="logo">
+                <span class="logo-txt1">RED DEVILS</span>
+                <span class="logo-txt2">STORE</span>
+            </div>
+            <div class="nav-search">
+                <button class="nav-search-icon"> <i class="fas fa-search"></i> </button>
+                <input type="text" class="nav-search-input" placeholder="Search" />
+            </div>
+            <ul class="nav-list">
+                <li><i class="fas fa-lg fa-home"></i></li>
+                <li><i class="fab fa-lg fa-gratipay"></i></li>
+                <li><i class="fas fa-lg fa-shopping-cart"></i></li>
+            </ul>
+        </nav>
+        <div class="header-categories">
+            <a href="#" class="btn link-btn">Jerseys</a>
+            <a href="#" class="btn link-btn">Training</a>
+            <a href="#" class="btn link-btn">Retro</a>
+        </div>
+    </header>
+    <main class="product-page">
+        <section class="filters-wrapper">
+            <aside class="filter-container">
+                <div class="filter-header flex justify-between align-start">
+                    <span class="title-txt">Filters</span>
+                    <button class="btn link-btn">Clear</button>
+                </div>
+
+                <div class="filter-component">
+                    <div class="filter-component-title">Price</div>
+                    <div class="filter-component-content">
+                        <label for="price-slider">Rs.1000-Rs.10,000</label>
+                        <input class="price-slider" type="range" min="1000" max="100000" value="2000"
+                            class="price-component">
+                    </div>
+                </div>
+
+
+                <div class="filter-component">
+                    <div class="filter-component-title">Category</div>
+                    <div class="filter-component-content flex flex-col">
+                        <div>
+                            <input type="checkbox" id="cat1">
+                            <label for="cat1">1</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cat2">
+                            <label for="cat2">2</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cat3">
+                            <label for="cat3">3</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cat4">
+                            <label for="cat4">4</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cat5">
+                            <label for="cat5">5</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-component">
+                    <div class="filter-component-title">Rating</div>
+                    <div class="filter-component-content flex flex-col">
+                        <div class="ratings-container flex items-center">
+                            <input type="radio" name="rating5">
+                            <label for="rating5">
+                                <div class="ratings-icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </label>
+                            <span class="text-small">Or more</span>
+                        </div>
+                        <div class="ratings-container flex items-center">
+                            <input type="radio" name="rating4">
+                            <label for="rating4">
+                                <div class="ratings-icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </label>
+                            <span class="text-small">Or more</span>
+                        </div>
+                        <div class="ratings-container flex items-center">
+                            <input type="radio" name="rating3">
+                            <label for="rating3">
+                                <div class="ratings-icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </label>
+                            <span class="text-small">Or more</span>
+                        </div>
+                        <div class="ratings-container flex items-center">
+                            <input type="radio" name="rating2">
+                            <label for="rating2">
+                                <div class="ratings-icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </label>
+                            <span class="text-small">Or more</span>
+                        </div>
+                        <div class="ratings-container flex items-center">
+                            <input type="radio" name="rating1">
+                            <label for="rating1">
+                                <div class="ratings-icons">
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </label>
+                            <span class="text-small">Or more</span>
+                        </div>
+                    </div>
+                    <div class="filter-component">
+                        <div class="filter-component-title">Sort By</div>
+                        <div class="filter-component-content flex flex-col">
+                            <div>
+                                <input type="checkbox" id="sort1">
+                                <label for="sort1">Price: Low to High</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="sort2">
+                                <label for="sort2">Price: High to Low</label>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+            </aside>
+        </section>
+        <section class="product-container">
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>
