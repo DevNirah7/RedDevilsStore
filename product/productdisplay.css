@@ -58,3 +58,28 @@
 {
     color: var(--gold);
 }
+
+.product-title
+{
+    margin: var(--u-16) var(--u-16);
+    font-weight: 300;
+}
+
+.product-container
+{
+    margin: var(--u-16) var(--u-16);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--u-16);
+    width: 100%;
+}
+
+.product-container .card-vert
+{
+    height: max-content;
+}
+
+.product-container .card-action-btn
+{
+    background-color: var(--black);
+}
