@@ -1,0 +1,85 @@
+.product-page
+{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+.filters-wrapper
+{
+    box-shadow: var(--homecard-shadow);
+    /* background-color: red; */
+    height: 100vh;
+    
+}
+
+.filter-container
+{
+    padding: var(--u-80) var(--u-16);
+    height: 100vh;
+}
+
+.title-txt
+{
+    font-size: var(--text-2xl);
+}
+
+.filter-header .link-btn
+{
+    padding: 0rem;
+    margin: 0rem;
+    color: var(--black);
+}
+
+.filter-header .link-btn:hover
+{
+    border-bottom: none;
+    font-weight: none;
+}
+
+.filter-component-title
+{
+    font-size: var(--text-lg);
+    margin-bottom: var(--u-4);
+    font-weight: 400;
+    color: var(--ecom-primary)
+}
+
+.filter-component
+{
+    margin-top: var(--u-16);
+}
+
+.filter-component .ratings-container
+{
+    gap: var(--u-8);
+}
+
+.ratings-icons > i
+{
+    color: var(--gold);
+}
+
+.product-title
+{
+    margin: var(--u-16) var(--u-16);
+    font-weight: 300;
+}
+
+.product-container
+{
+    margin: var(--u-16) var(--u-16);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--u-16);
+    width: 100%;
+}
+
+.product-container .card-vert
+{
+    height: max-content;
+}
+
+.product-container .card-action-btn
+{
+    background-color: var(--black);
+}
