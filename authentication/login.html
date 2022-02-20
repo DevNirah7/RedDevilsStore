@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedDevilsStore | Cart</title>
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/root.css">
+    <link rel="stylesheet" href="/authentication/login.css">
+    <link rel="stylesheet" href="https://mint-ui-library.netlify.app/src/css/import.css">
+    <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <header class="ecom-header">
+        <div class="header-auth-wrapper flex justify-end">
+            <div class="header-auth">
+                <a href="#" class="btn link-btn">Register</a>
+                <span>|</span>
+                <a href="#" class="btn link-btn">Login</a>
+            </div>
+        </div>
+        <nav class="nav-simple">
+            <div class="nav-logo flex items-center">
+                <img class="logo-png" src="/Assets/CRD PNG ( Black and Red ).png" alt="logo">
+                <span class="logo-txt1">RED DEVILS</span>
+                <span class="logo-txt2">STORE</span>
+            </div>
+            <div class="nav-search">
+                <button class="nav-search-icon"> <i class="fas fa-search"></i> </button>
+                <input type="text" class="nav-search-input" placeholder="Search" />
+            </div>
+            <ul class="nav-list">
+                <li><i class="fas fa-lg fa-home"></i></li>
+                <li><i class="fab fa-lg fa-gratipay"></i></li>
+                <li><i class="fas fa-lg fa-shopping-cart"></i></li>
+            </ul>
+        </nav>
+        <div class="header-categories">
+            <a href="#" class="btn link-btn">Jerseys</a>
+            <a href="#" class="btn link-btn">Training</a>
+            <a href="#" class="btn link-btn">Retro</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="login-wrapper">
+            <div class="login-container flex flex-col">
+                <div class="login-title login-components">Login</div>
+                <div class="login-emailid flex flex-col">
+                    <label for="email-id">Enter Email address</label>
+                    <input type="email" id="email-id" placeholder="xyz@gmail.com">
+                </div>
+                <div class="login-password login-components flex flex-col">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="login-rem-me-for-pwd login-components flex justify-around items-center">
+                    <input type="checkbox" id="rememberme">
+                    <label for="rememberme">Remember me</label>
+                    <a href="#">Forgot your password?</a>
+                </div>
+                <div class="login-btn-container login-components flex justify-center">
+                    <button class="login-btn btn filled-btn">Login</button>
+                </div>
+                <div class="login-create-acc-container login-components flex justify-center">
+                    <a class="login-create-acc" href="#">Create New Account</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>    
