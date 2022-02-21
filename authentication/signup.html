@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Red Devils Store | Home</title>
-    <link rel="stylesheet" href="/styles/home.css" />
-    <link rel="stylesheet" href="/styles/root.css" />
-    <link rel="stylesheet" href="https://mint-ui-library.netlify.app/src/css/import.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedDevilsStore | Signup</title>
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/root.css">
+    <link rel="stylesheet" href="/authentication/signup.css">
+    <link rel="stylesheet" href="https://mint-ui-library.netlify.app/src/css/import.css">
     <script src="https://kit.fontawesome.com/8f32ce5d5f.js" crossorigin="anonymous"></script>
+</head>
 </head>
 
 <body>
@@ -43,31 +45,31 @@
             <a href="#" class="btn link-btn">Retro</a>
         </div>
     </header>
+
     <main>
-        <section class="home-banner">
-            <img class="img-responsive" src="/Assets/Bannerimage.jpeg" alt="manchester united jersey in a hanger" />
-            <a href="/product/productdisplay.html" class="btn filled-btn rounded">SHOP NOW</a>
-        </section>
-        <section class="featured">
-            <div>
-                <img class="img-responsive featured-img1" src="/Assets/Solskjaer image.jpeg"
-                    alt="manchester united facup 1999 image" />
-                <a href="#" class="btn filled-btn rounded featured-btn1">VIEW</a>
-                <div class="featured-content1 flex flex-col justify-end">
-                    <div class="content-title">RETRO MASTERPIECES</div>
-                    <p class="content-desc">Jerseys from Man United's glorious past</p>
+        <section class="signup-wrapper">
+            <div class="signup-container flex flex-col">
+                <div class="signup-title signup-components">Signup</div>
+                <div class="signup-emailid flex flex-col">
+                    <label for="email-id">Enter Email address</label>
+                    <input type="email" id="email-id" placeholder="xyz@gmail.com">
                 </div>
-            </div>
-            <div>
-                <img class="img-responsive featured-img2" src="/Assets/Bruno image2.jpeg" alt="bruno fernandes image" />
-                <a href="#" class="btn filled-btn rounded featured-btn2">VIEW</a>
-                <div class="featured-content2 flex flex-col justify-end">
-                    <div class="content-title">MODERN BEAUTIES</div>
-                    <p class="content-desc">Present day jerseys made of fancy stuff</p>
+                <div class="signup-password signup-components flex flex-col">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="signup-termsandconditions signup-components flex items-center">
+                    <input type="checkbox" id="rememberme">
+                    <label for="rememberme">I accept all the terms and conditions</label>
+                </div>
+                <div class="signup-btn-container signup-components flex justify-center">
+                    <button class="signup-btn btn filled-btn">Signup</button>
+                </div>
+                <div class="signup-haveacc-container signup-components flex justify-center">
+                    <a class="signup-haveacc" href="/authentication/login.html">Already have an account</a>
                 </div>
             </div>
         </section>
     </main>
-</body>
 
-</html>
+</body>
