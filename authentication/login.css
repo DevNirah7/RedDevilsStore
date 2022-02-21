@@ -1,65 +1,52 @@
-.login-wrapper
-{
-    box-shadow: var(--homecard-shadow); 
-    width: max-content;
-    margin: 8rem auto;
+.login-wrapper {
+  box-shadow: var(--homecard-shadow);
+  width: max-content;
+  margin: 8rem auto;
 }
 
-.login-container
-{
-    width: 30rem;
-    padding: var(--u-16) var(--u-80);
+.login-container {
+  width: 30rem;
+  padding: var(--u-16) var(--u-80);
 }
 
-.login-title
-{
-    font-size: var(--text-2xl);
-    font-weight: 600;
-    align-self: center; 
+.login-title {
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  align-self: center;
 }
 
-.login-components
-{
-    padding: var(--u-8);
+.login-components {
+  padding: var(--u-8);
 }
 
-.login-emailid
-{
-    padding: var(--u-8);
-    font-size: var(--text-sm);
+.login-emailid {
+  padding: var(--u-8);
+  font-size: var(--text-sm);
 }
 
-#email-id
-{
-    padding: var(--u-4);
+#email-id {
+  padding: var(--u-4);
 }
 
-.login-password
-{
-    font-size: var(--text-sm);
+.login-password {
+  font-size: var(--text-sm);
 }
 
-#password
-{
-    padding: var(--u-4);
+#password {
+  padding: var(--u-4);
 }
 
-.login-rem-me-for-pwd
-{
-    font-size: var(--text-sm);
+.login-rem-me-for-pwd {
+  font-size: var(--text-sm);
 }
 
-.login-container .login-btn 
-{
-    background-color: var(--ecom-secondary);
-    color: var(--white);
-    font-size: var(--text-base);
-    padding: var(--u-10) 8rem;
+.login-container .login-btn {
+  background-color: var(--ecom-secondary);
+  color: var(--white);
+  font-size: var(--text-base);
+  padding: var(--u-10) 8rem;
 }
 
-.login-container .login-btn:hover
-{
-    background-color: var(--ecom-primary);
+.login-container .login-btn:hover {
+  background-color: var(--ecom-primary);
 }
-
-
